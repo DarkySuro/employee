@@ -1,0 +1,25 @@
+{
+  "employeeApp": {
+    "employeeDetails": {
+      "home": {
+        "title": "EmployeeDetails",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Employee Details बनाएँ",
+        "createOrEditLabel": "Employee Details बनाएँ या संपादित करें",
+        "notFound": "No Employee Details found"
+      },
+      "created": "एक नया Employee Details [identifier: {{ param }}] तैयार है",
+      "updated": "एक Employee Details [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Employee Details [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Employee Details [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Employee Details"
+      },
+      "id": "ID",
+      "aadharNumber": "Aadhar Number",
+      "child": "Child"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+entity Candidate{
+firstName String required maxlength(40),
+lastName String maxlength(60),
+login String minlength(1) maxlength(50)
+}
+
+entity EmployeeDetails {
+aadharNumber String required minlength(12)
+}
+
+relationship OneToOne {
+  Candidate{parent} to EmployeeDetails{Child}
+}
